@@ -1,0 +1,14 @@
+<taglib>
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.0</tlib-version>
+		<tag>
+			<name>select</name>
+			<tag-class>com.app.SelectTagHandler</tag-class>
+			<body-content>jsp</body-content>
+				<attribute>
+					<name>table</name>
+					<required>true</required>
+					<rtexprvalue>true</rtexprvalue>
+				</attribute>
+		</tag>
+</taglib>
