@@ -71,8 +71,9 @@ public class SelectTagHandler extends TagSupport {
 						out.println("<tr>");
 						for(int i=1;i<=count;i++) {
 							out.println("<td>"+rs.getString(i)+"</td>");
-										out.println("</tr>");
 						}
+										out.println("</tr>");
+						
 					}//while
 					
 					out.println("</table></body></html>");
